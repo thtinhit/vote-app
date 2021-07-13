@@ -1,0 +1,14 @@
+export const emailValidator = (email) => {
+  const re = /\S+@\S+\.\S+/;
+
+  if (!email || email.length <= 0) return 'Email cannot be empty.';
+  if (!re.test(email)) return 'We need a valid email address.';
+
+  return '';
+};
+
+export const passwordValidator = (password) => {
+  if (!password || password.length <= 0) return 'Password cannot be empty.';
+
+  return '';
+};

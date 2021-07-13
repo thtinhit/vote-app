@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "VoteApp",
+    "slug": "VoteApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.app.vote"
+    }
+  },
+  "name": "VoteApp"
+}
